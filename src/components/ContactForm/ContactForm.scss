@@ -1,0 +1,63 @@
+.contactform {
+  width: 100%;
+  display: flex;
+  flex: 1;
+
+  .register-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .success-message {
+      font-family: "Roboto", sans-serif;
+      background-color: #3f89f8;
+      padding: 15px;
+      color: white;
+    }
+    
+    .form-field {
+      margin: 10px 0 10px 0;
+      padding: 15px;
+      font-size: 16px;
+      border: 0;
+      font-family: "Roboto", sans-serif;
+    }
+    
+    span {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      color: red;
+      margin-bottom: 15px;
+    }
+    
+    input, textarea {
+      background: #f2f2f2;
+    }
+    
+    .error {
+      border-style: solid;
+      border: 2px solid #ffa4a4;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #2879fe;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      cursor: pointer;
+      border: none;
+      font-weight: 500;
+    }
+    
+    button:disabled {
+      cursor: default;
+    }
+  }
+
+}
+
