@@ -18,6 +18,12 @@ const Navbar = () => {
           <div className="item">
             <Link className ="link" to="/products/2">Men</Link>
           </div>
+          <div className="item">
+            <Link className ="link" to="/products/3">Accessoires</Link>
+          </div>
+          <div className="item">
+            <Link className ="link" to="/products/4">Shoes</Link>
+          </div>
         </div>
         <div className="center">
           <Link className ="link" to="/">CLOTHES 687</Link>

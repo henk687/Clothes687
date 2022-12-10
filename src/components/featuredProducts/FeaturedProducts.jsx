@@ -12,9 +12,6 @@ const FeaturedProducts = ({type}) => {
       
       <div className="top">
         <h1>{type} products</h1>
-        <p>
-          check out our {type} clothes.
-        </p>
       </div>
       <div className="bottom">
         {
