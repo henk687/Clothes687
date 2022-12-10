@@ -10,6 +10,10 @@ const Footer = () => {
           <h1>Categories</h1>
           <span><Link className ="link" to="/products/1">Women</Link></span>
           <span><Link className ="link" to="/products/2">Men</Link></span>
+          <span><Link className ="link" to="/products/3">Accessoires</Link></span>
+          <span><Link className ="link" to="/products/4">Shoes</Link></span>
+          <span><Link className="link" to="/products/5">Sale</Link></span>
+          <span><Link className="link" to="/products/6">New Season</Link></span>
         </div>
         <div className="item">
           <h1>Links</h1>
