@@ -24,7 +24,7 @@ const Categories = () => {
           <div className="row">
             <img src="/img/blue-shirt.jpg" alt="" />
             <button>
-              <Link className="link" to="/products/1">Men</Link>
+              <Link className="link" to="/products/2">Men</Link>
             </button>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Categories = () => {
               <div className="row">
                 <img src="/img/women-bag.jpg" alt="" />
                 <button>
-              <Link className="link" to="/products/1">Accessoires</Link>
+              <Link className="link" to="/products/3">Accessoires</Link>
             </button>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Categories = () => {
           <div className="row">
             <img src="/img/yellow-heels.jpg" alt="" />
             <button>
-              <Link className="link" to="/products/1">Shoes</Link>
+              <Link className="link" to="/products/4">Shoes</Link>
             </button>
           </div>
         </div>
