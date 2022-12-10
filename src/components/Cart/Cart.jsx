@@ -40,7 +40,7 @@ const Cart = () => {
       <h1>Products in your cart</h1>
       {products?.map((item) => (
         <div className="item" key={item.id}>
-          <img src={process.env.REACT_APP_UPLOAD_URL + item.img} alt="" />
+          <img src={process.env.REACT_APP_UPLOAD_URL + item.img} alt={item.title} />
           <div className="details">
             <h1>{item.title}</h1>
             <p>{item.desc?.substring(0, 100)}</p>
@@ -48,10 +48,6 @@ const Cart = () => {
               {item.quantity} x ${item.price}
             </div>
           </div>
-          {/* <DeleteOutlinedIcon
-            className="delete"
-            onClick={() => dispatch(removeItem(item.id))}
-          /> */}
           <span
             className="delete"
             onClick={() => dispatch(removeItem(item.id))}

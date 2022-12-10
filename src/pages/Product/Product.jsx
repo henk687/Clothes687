@@ -26,7 +26,7 @@ const Product = () => {
                   process.env.REACT_APP_UPLOAD_URL +
                   data?.attributes?.img?.data?.attributes?.url
                 }
-                alt=""
+                alt={data?.attributes?.title}
               />
             </div>
           </div>

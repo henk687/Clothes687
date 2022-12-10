@@ -7,7 +7,7 @@ const About = () => {
       <div className="left">
         <div className="item">
           <span>
-          <img src="/img/yellow-heels.jpg" alt="" />
+          <img src="/img/yellow-heels.jpg" alt="yellow-heels" />
           </span>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Contact = () => {
 
         <div className="item">
           <span>
-          <img src="/img/travel-bag.jpg" alt="" />
+          <img src="/img/travel-bag.jpg" alt="travel bag." />
           </span>
         </div>
       </div>

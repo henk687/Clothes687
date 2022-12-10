@@ -8,13 +8,13 @@ const Categories = () => {
       <div className="categories">
         <div className="col">
           <div className="row">
-            <img src="/img/yellow-shirt.jpg" alt="" />
+            <img src="/img/yellow-shirt.jpg" alt="Sale" />
             <button>
               <Link className="link" to="/products/5">Sale</Link>
             </button>
           </div>
           <div className="row">
-            <img src="/img/dress.jpg" alt="" />
+            <img src="/img/dress.jpg" alt="Women" />
             <button>
               <Link className="link" to="/products/1">Women</Link>
             </button>
@@ -22,7 +22,7 @@ const Categories = () => {
         </div>
         <div className="col">
           <div className="row">
-            <img src="/img/blue-shirt.jpg" alt="" />
+            <img src="/img/blue-shirt.jpg" alt="Men" />
             <button>
               <Link className="link" to="/products/2">Men</Link>
             </button>
@@ -32,7 +32,7 @@ const Categories = () => {
           <div className="row">
             <div className="col">
               <div className="row">
-                <img src="/img/women-bag.jpg" alt="" />
+                <img src="/img/women-bag.jpg" alt="Accessoires" />
                 <button>
               <Link className="link" to="/products/3">Accessoires</Link>
             </button>
@@ -40,7 +40,7 @@ const Categories = () => {
             </div>
             <div className="col">
               <div className="row">
-                <img src="/img/jeans.jpg" alt="" />
+                <img src="/img/jeans.jpg" alt="New Season" />
                 <button>
                   <Link className="link" to="/products/6">New Season</Link>
                 </button>
@@ -48,7 +48,7 @@ const Categories = () => {
             </div>
           </div>
           <div className="row">
-            <img src="/img/yellow-heels.jpg" alt="" />
+            <img src="/img/yellow-heels.jpg" alt="Shoes" />
             <button>
               <Link className="link" to="/products/4">Shoes</Link>
             </button>

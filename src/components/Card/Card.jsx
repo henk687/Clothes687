@@ -13,7 +13,7 @@ const Card = ({item}) => {
             src={
               process.env.REACT_APP_UPLOAD_URL + item.attributes?.img?.data?.attributes?.url
             } 
-            alt="" 
+            alt={item?.attributes.title} 
             className="mainImg"
           />
         </div>

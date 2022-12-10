@@ -37,7 +37,7 @@ const Footer = () => {
           <span className="copyright">&copy; {new Date().getFullYear()}. All Rights Reserved</span>
         </div>
         <div className="right">
-          <img src="/img/payment.png" alt="" />
+          <img src="/img/payment.png" alt="payment" />
         </div>
       </div>
     </div>
