@@ -11,7 +11,7 @@ const Card = ({item}) => {
           {item?.attributes.isNew && <span>New Season</span>}
           <img 
             src={
-              "https://res.cloudinary.com/dts2zdpa2/image/upload/v1652351438/SAM_2339_kg6cb2.jpg" + item.attributes?.img?.data?.attributes?.url
+              item.attributes?.img?.data?.attributes?.url
               // "https://res.cloudinary.com/dts2zdpa2/image/upload/v1652351438/SAM_2339_kg6cb2.jpg"
             } 
             alt={item?.attributes.title} 
