@@ -23,7 +23,6 @@ const Product = () => {
             <div className="mainImg">
               <img
                 src={
-                  process.env.REACT_APP_UPLOAD_URL +
                   data?.attributes?.img?.data?.attributes?.url
                 }
                 alt={data?.attributes?.title}
