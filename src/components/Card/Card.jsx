@@ -11,7 +11,8 @@ const Card = ({item}) => {
           {item?.attributes.isNew && <span>New Season</span>}
           <img 
             src={
-              process.env.REACT_APP_UPLOAD_URL + item.attributes?.img?.data?.attributes?.url
+              // process.env.REACT_APP_UPLOAD_URL + item.attributes?.img?.data?.attributes?.url
+              "https://res.cloudinary.com/dts2zdpa2/image/upload/v1652351438/SAM_2339_kg6cb2.jpg"
             } 
             alt={item?.attributes.title} 
             className="mainImg"
